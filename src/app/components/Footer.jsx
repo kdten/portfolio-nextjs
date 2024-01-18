@@ -9,8 +9,9 @@ const Footer = () => {
 
   return (
     <footer className="footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent text-white">
-      <div className="container p-12 flex justify-between">
-        <span></span>
+      <div className="container p-20 flex justify-between">
+        <span>  </span>
+        {/* <span>LOGO</span> */}
         <p className="text-gray-500">All rights reserved &copy; {currentYear} <strong>Kolten Edward</strong></p>
       </div>
     </footer>
