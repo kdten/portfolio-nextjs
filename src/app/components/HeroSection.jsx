@@ -133,7 +133,7 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#dddddd] dark:bg-[#181818] w-[250px] h-[250px] sm:w-[180px] sm:h-[180px] md:w-[225px] md:h-[225px] lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px] relative">
             <Image
-              src="/images/hero-image.png"
+              src="/images/hero-image.webp"
               alt="Kolten Edward sitting at this laptop"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 xl:w-[400px]"
               width={400}
