@@ -7,7 +7,7 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "CouponCatch",
+    title: "CouponCatch App",
     description: "Firebase, Node, REST API, Ionic React, Document AI. Login with demo@demo.com // Demodemo12!",
     // image: "/",
     tag: ["All", "Fullstack", "React"],
