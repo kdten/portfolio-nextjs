@@ -43,7 +43,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-black dark:text-white mb-4 text-3xl sm:text-5xl md:text-4xl lg:text-6xl xl:text-7xl lg:leading-normal font-extrabold">
+          <h1 className="text-black dark:text-white mb-4 text-4xl sm:text-5xl md:text-4xl lg:text-6xl xl:text-7xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Hello, I&apos;m
               <span className={isKoltenVisible ? "hidden" : "secondary-600"}>
@@ -72,7 +72,7 @@ const HeroSection = () => {
               // className="whitespace-nowrap"
               speed={50}
               repeat={Infinity}
-              className="text-4xl md:text-4xl lg:text-6xl xl:text-7xl"
+              className="text-3xl sm:text-4xl md:text-4xl lg:text-6xl xl:text-7xl"
             />
           </h1>
           <p className="text-gray-500 dark:text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl text-balance">
