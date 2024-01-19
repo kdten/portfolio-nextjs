@@ -33,20 +33,20 @@ const Navbar = () => {
         ></Link>
         <div className="flex items-center">
           <ThemeSwitcher />
-          {/* className="flex items-center px-3 py-2 text-slate-200 hover:text-white hover:border-white mr-4" */}
+          {/* className="flex items-center px-3 py-2 text-slate-200 betterhover:text-white betterhover:border-white mr-4" */}
           <div className="mobile-menu block md:hidden">
             {!navbarOpen ? (
               <button
                 onClick={() => setNavbarOpen(true)}
-                // className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
-                className="dark:bg-[#121212] bg-[#f0f0f0] dark:hover:bg-gray-300 transition-all duration-100 text-white dark:text-gray-800 px-3 py-2 text-2xl md:text-4xl rounded-md border border-gray-800"
+                // className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 betterhover:text-white betterhover:border-white"
+                className="dark:bg-[#121212] bg-[#f0f0f0] dark:betterhover:bg-gray-300 transition-all duration-100 text-white dark:text-gray-800 px-3 py-2 text-2xl md:text-4xl rounded-md border border-gray-800"
               >
                 <Bars3Icon className="h-5 w-5 dark:text-white text-black" />
               </button>
             ) : (
               <button
                 onClick={() => setNavbarOpen(false)}
-                className="flex items-center px-3 py-2 border rounded border-black dark:border-slate-200 text-black dark:text-slate-200 hover:text-white hover:border-white"
+                className="flex items-center px-3 py-2 border rounded border-black dark:border-slate-200 text-black dark:text-slate-200 betterhover:text-white betterhover:border-white"
               >
                 <XMarkIcon className="h-5 w-5" />
               </button>
