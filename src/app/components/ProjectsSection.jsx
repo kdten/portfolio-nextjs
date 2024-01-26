@@ -55,6 +55,7 @@ const projectsData = [
   //   previewUrl: "https://koltenedward.com/halves/index.html",
   //   video: "/images/projects/previewalves",
   // },
+  
   {
     id: 6,
     title: "Barbershop Single Landing Page",
