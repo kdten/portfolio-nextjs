@@ -41,8 +41,8 @@ const projectsData = [
     description: "React, Redux, Tailwind CSS",
     image: "/",
     tag: ["All", "React"],
-    gitUrl: "https://kdten.github.io/music-app/",
-    previewUrl: "https://koltenedward.com/music-app/index.html",
+    gitUrl: "https://github.com/kdten/music-app",
+    previewUrl: "https://kdten.github.io/music-app/",
     video: "/images/projects/previewmusic",
   },
   // {
@@ -55,7 +55,7 @@ const projectsData = [
   //   previewUrl: "https://koltenedward.com/halves/index.html",
   //   video: "/images/projects/previewalves",
   // },
-  
+
   {
     id: 6,
     title: "Barbershop Single Landing Page",
