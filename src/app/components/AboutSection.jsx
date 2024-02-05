@@ -68,13 +68,13 @@ const AboutSection = () => {
               {" "}
               Skills{" "}
             </TabButton>
-            <TabButton
+            {/* <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
             >
               {" "}
               Education{" "}
-            </TabButton>
+            </TabButton> */}
             {/* <TabButton
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
