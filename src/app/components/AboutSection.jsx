@@ -15,20 +15,21 @@ const TAB_DATA = [
         <li>Node.js</li>
         <li>Express</li>
         <li>React</li>
+        <li>Next.js</li>
         <li>Redux</li>
       </ul>
     ),
   },
-  {
-    title: "Education",
-    id: "education",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Associate of Arts</li>
-        <li>NIACC, Mason City, IA</li>
-      </ul>
-    ),
-  },
+  // {
+  //   title: "Education",
+  //   id: "education",
+  //   content: (
+  //     <ul className="list-disc pl-2">
+  //       <li>Associate of Arts</li>
+  //       <li>NIACC, Mason City, IA</li>
+  //     </ul>
+  //   ),
+  // },
   // {
   //   title: "Certifications",
   //   id: "certifications",
@@ -58,7 +59,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-black dark:text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack developer in the state of Colorado and I am enthusiastic about building robust websites and apps. My expertise lies in developing solutions using Typescript, NodeJS, Express, React, and NextJS. I aim to create user-centric, efficient, and scalable websites that deliver exceptional user experiences.
+            I am a full stack developer in the state of Colorado and I am enthusiastic about building robust websites and apps. My expertise lies in developing solutions using Typescript, NodeJS, React, NextJS and AWS. I aim to create user-centric, efficient, and scalable websites that deliver exceptional user experiences.
             I am an ambitious learner and I am always looking to expand my knowledge and skill set. I am a team player and I am excited to work with others to create amazing applications
           </p>
           <div className="flex flex-row justify-start mt-8">
