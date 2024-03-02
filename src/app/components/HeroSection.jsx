@@ -30,8 +30,8 @@ const HeroSection = () => {
   }, []);
 
   const items = [
-    { key: "docx", label: "DOCX", link: "KoltenEdwardSoftwareEng.docx" },
-    { key: "pdf", label: "PDF", link: "KoltenEdwardSoftwareEng.pdf" },
+    { key: "docx", label: "DOCX", link: "/KoltenEdwardSoftwareEng.docx" },
+    { key: "pdf", label: "PDF", link: "/KoltenEdwardSoftwareEng.pdf" },
   ];
 
   return (
