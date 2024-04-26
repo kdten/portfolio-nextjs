@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "CouponCatch App",
-    description: "Firebase, Node, REST API, Ionic React, Document AI. Login with demo@demo.com // Demodemo12!",
+    description: "Tpescript, React, Node, Exrpess, REST API, Document AI, AWS, Stripe. Login with demo@demo.com // Demodemo12!",
     // image: "/",
     tag: ["All", "Fullstack", "React"],
     gitUrl: "https://github.com/kdten/coupon-catch",
@@ -18,7 +18,7 @@ const projectsData = [
   {
     id: 2,
     title: "CouponCatch Landing Page",
-    description: "Next.js",
+    description: "Typescript, React, NextJS, Node, Exrpess, AWS",
     image: "/",
     tag: ["All", "NextJS"],
     gitUrl: "https://github.com/kdten/coupon-catch-landing",
@@ -28,7 +28,7 @@ const projectsData = [
   {
     id: 3,
     title: "CarHub Rental Showcase",
-    description: "Next.js, Tailwind CSS",
+    description: "Typescript, React, NextJS, Tailwind CSS",
     image: "/",
     tag: ["All", "NextJS", "React"],
     gitUrl: "https://github.com/kdten/nextjs-car-rental",
@@ -38,7 +38,7 @@ const projectsData = [
   {
     id: 4,
     title: "MusicPlayer App",
-    description: "React, Redux, Tailwind CSS",
+    description: "Typescript, React, Redux, Tailwind CSS",
     image: "/",
     tag: ["All", "React"],
     gitUrl: "https://github.com/kdten/music-app",
