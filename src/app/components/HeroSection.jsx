@@ -59,8 +59,6 @@ const HeroSection = () => {
                 5000,
                 "Software Engineer",
                 3000,
-                "UI/UX Developer",
-                3000,
                 "Fullstack Developer",
                 3000,
                 "Frontend Developer",
@@ -75,9 +73,11 @@ const HeroSection = () => {
               className="text-3xl sm:text-4xl md:text-4xl lg:text-6xl xl:text-7xl"
             />
           </h1>
-          <p className="text-gray-500 dark:text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl text-balance">
-            Building innovative software solutions with modern technologies to
-            drive business growth and improve UX.
+          <p className="text-gray-500 dark:text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-2xl text-balance">
+            I build innovative software solutions with
+            <span className="font-bold">
+              Typescript, React, NextJS, Node, Express, AWS and GCP
+            </span>
           </p>
           <div>
             <Link
