@@ -62,14 +62,14 @@ const AboutSection = () => {
             I am a full stack developer in the state of Colorado and I am enthusiastic about building robust websites and apps. My expertise lies in developing solutions using Typescript, NodeJS, React, NextJS and AWS. I aim to create user-centric, efficient, and scalable websites that deliver exceptional user experiences.
             I am an ambitious learner and I am always looking to expand my knowledge and skill set. I am a team player and I am excited to work with others to create amazing applications
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          {/* <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
             >
               {" "}
               Skills{" "}
-            </TabButton>
+            </TabButton> */}
             {/* <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
@@ -84,10 +84,10 @@ const AboutSection = () => {
               {" "}
               Certifications{" "}
             </TabButton> */}
-          </div>
+          {/* </div>
           <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab).content}
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
