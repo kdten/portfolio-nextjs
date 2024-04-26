@@ -30,8 +30,8 @@ const HeroSection = () => {
   }, []);
 
   const items = [
-    { key: "docx", label: "DOCX", link: "/KoltenEdwardSoftwareEng.docx" },
-    { key: "pdf", label: "PDF", link: "/KoltenEdwardSoftwareEng.pdf" },
+    { key: "docx", label: "DOCX", link: "/KoltenEdwardSWE.docx" },
+    { key: "pdf", label: "PDF", link: "/KoltenEdwardSWE.pdf" },
   ];
 
   return (
@@ -116,7 +116,7 @@ const HeroSection = () => {
               </DropdownMenu>
             </Dropdown>
             {/* <Link
-              href="KoltenEdwardSoftwareEng.pdf"
+              href="KoltenEdwardSWE.pdf"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 betterhover:hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] betterhover:hover:bg-slate-800 rounded-full px-5 py-2">
